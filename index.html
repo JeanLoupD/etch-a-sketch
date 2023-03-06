@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="javascript.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+    <title>Etch And Sketch</title>
+</head>
+<body>
+    <div class="header">
+        <p><span>MAGIC</span> Etch-And-Sketch <span>SCREEN</span></p>
+    </div>
+
+    <div class="content-container">
+        <div class="flex-colonne">
+            <div>
+                <p>Choose a grid size</p>
+            </div>
+
+            <div class="button-div">
+                <button id="smallGridBtn" class="gridBtnStyle">10x10</button>
+                <button id="medGridBtn" class="gridBtnStyle">20x20</button>
+                <button id="bigGridBtn" class="gridBtnStyle">50x50</button>
+            </div>
+
+            <div class="grid-container">
+                <div id="drawingFrame"></div>
+            </div>
+
+            <div>
+                <p>Choose a color and hover your mouse to create your masterpiece</p>
+            </div>
+
+            <div class="color-btn-container">
+                <input type="color" id="colorPicker">
+                <button id="blackBtn" class="colorBtnStyle testLeft">SELECT COLOR</button>
+                <button id="rainbowBtn" class="colorBtnStyle testLeft">RAINBOW</button>
+                <button id="whiteBtn" class="colorBtnStyle testLeft">ERASER</button>
+                <button id="clearBtn" class="colorBtnStyle testLeft">CLEAR</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Odin Project - JeanLoupD</p>
+        <a href="https://github.com/JeanLoupD/JeanLoupD">
+            <img src="./image/github.png" alt="github logo">
+        </a>
+    </div>
+</body>
+</html>
